@@ -42,7 +42,7 @@ function App() {
 
   return (
     <>
-    <Navbar title ="Text" mode={mode} toggleMode = {toggleMode} />
+    <Navbar title ="Terabox" mode={mode} toggleMode = {toggleMode} />
     {/* <Alert alert = "Welcome"/> */}
     <div className="container my-3 ">
      <TextForm mode={mode} heading = "Enter the text to analyse below"/>
